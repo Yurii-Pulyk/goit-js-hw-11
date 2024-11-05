@@ -110,3 +110,65 @@ form {
 .info-item {
   font-size: 14px;
 }
+
+/* доробка */
+
+/* Загальний стиль для body */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Контейнер для форми */
+.form-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start; 
+   flex-direction: column;
+  margin-top: 36px; 
+}
+
+/* Стиль для інпуту */
+.js-search input[type="text"] {
+  width: 272px;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Стиль для кнопки */
+.js-search button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 91px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Відстань між інпутом і кнопкою */
+.js-search {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+}
